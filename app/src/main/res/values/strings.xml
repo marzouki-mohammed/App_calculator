@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">calculator</string>
+    <string name="Login_name">Login</string>
+    <string name="Username_name">Username</string>
+    <string name="Password_name">Password</string>
+    <string name="message">Not yet registered? SignUp Now</string>
+    <string name="Add_Account">Add Account</string>
+    <string name="Update_Account">Update Account</string>
 </resources>

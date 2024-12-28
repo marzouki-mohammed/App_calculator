@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MenuItemStyle">
+        <!-- Set text color -->
+        <item name="android:textColor">@color/purple</item>
+
+        <!-- Set text size -->
+        <item name="android:textSize">16sp</item>
+
+        <!-- Set background color for items -->
+        <item name="android:background">@android:color/darker_gray</item>
+
+        <!-- Set padding for items -->
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+</resources>
