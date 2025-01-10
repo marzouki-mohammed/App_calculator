@@ -20,89 +20,93 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_height="475dp"
             android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
             android:padding="24dp">
 
             <TextView
+                android:id="@+id/loginText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Login_name"
-                android:id="@+id/loginText"
-                android:textSize="36sp"
                 android:textAlignment="center"
-                android:textStyle="bold"
-                android:textColor="@color/purple" />
+                android:textColor="@color/purple"
+                android:textSize="36sp"
+                android:textStyle="bold" />
 
             <EditText
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/username"
+                android:layout_marginTop="40dp"
                 android:drawablePadding="8dp"
                 android:hint="@string/Username_name"
                 android:padding="8dp"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="40dp" />
+                android:textColorHighlight="@color/cardview_dark_background" />
 
             <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:id="@+id/password"
+                android:layout_marginTop="20dp"
                 android:drawablePadding="8dp"
                 android:hint="@string/Password_name"
-                android:padding="8dp"
                 android:inputType="textPassword"
+                android:padding="8dp"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
-                android:layout_marginTop="20dp" />
+                android:textColorHighlight="@color/cardview_dark_background" />
 
             <Button
+                android:id="@+id/loginButton"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/loginButton"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"
                 android:text="@string/Login_name"
                 android:textSize="18sp"
-                android:layout_marginTop="30dp"
-                android:backgroundTint="@color/purple"
                 app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/SignUpbutton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/purple"
+                android:text="@string/SignUp"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:layout_height="60dp"
                 android:layout_gravity="center_horizontal"
-                android:padding="24dp">
+                android:layout_marginTop="5dp"
+                android:background="@drawable/border"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="8dp">
 
-                <Button
-                    android:id="@+id/fab_add"
+                <!-- Image à gauche -->
+                <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:layout_gravity="start"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/google" /> <!-- Espace entre l'image et le bouton -->
 
-                    android:layout_marginRight="65dp"
-                    android:background="@drawable/ic_add"
-                    android:textColor="@android:color/white" />
-
+                <!-- Bouton avec texte -->
                 <Button
-                    android:id="@+id/fab_update"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-
-                    android:layout_marginRight="65dp"
-                    android:background="@drawable/ic_update"
-                    android:textColor="@android:color/white" />
-
-                <Button
-                    android:id="@+id/fab_add_google"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="end"
-
-                    android:layout_marginLeft="5dp"
-                    android:background="@drawable/google" />
+                    android:id="@+id/LoginGooglebutton"
+                    android:layout_width="219dp"
+                    android:layout_height="53dp"
+                    android:layout_gravity="center_vertical"
+                    android:backgroundTint="@color/purple"
+                    android:text="@string/Google"
+                    android:textSize="18sp"
+                    app:cornerRadius="20dp" /> <!-- Centrer le texte verticalement -->
             </LinearLayout>
+
 
         </LinearLayout>
 

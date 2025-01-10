@@ -5,5 +5,7 @@
     <string name="Password_name">Password</string>
     <string name="message">Not yet registered? SignUp Now</string>
     <string name="Add_Account">Add Account</string>
-    <string name="Update_Account">Update Account</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Google">Sign up with Google</string>
+
 </resources>
