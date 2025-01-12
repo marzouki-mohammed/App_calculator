@@ -8,5 +8,9 @@
     <string name="SignUp">Sign Up</string>
     <string name="Google">Sign up with Google</string>
     <string name="nameApp">My Calculator</string>
+    <string name="OpenNav"> Open Navigation drawer</string>
+    <string name="CloseNav">Close Navigation drawer</string>
+
+
 
 </resources>

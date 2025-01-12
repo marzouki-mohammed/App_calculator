@@ -3,20 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/purple"
     android:padding="20dp">
+
+    <!-- ImageView avec des contraintes -->
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:src="@drawable/calculator_img"/>
+        android:src="@drawable/calculator_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:contentDescription="Calculator Icon" />
 
+    <!-- TextView avec des contraintes -->
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="95dp"
         android:text="@string/nameApp"
+        android:textColor="@color/white"
         android:textSize="40sp"
-        android:textColor="@color/white"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

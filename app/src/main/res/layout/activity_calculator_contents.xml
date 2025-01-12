@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/drawerlyaut"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Calculator_Contents">
-
-    <!-- Barre supérieure -->
+    tools:context=".Calculator_Contents"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+    <!-- Contenu principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="81dp"
@@ -20,11 +26,12 @@
         <!-- ImageView pour le logo ou l'image -->
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="8dp"
-            android:src="@drawable/calculator_img" />
+            android:src="@drawable/calculator_img"
+            android:contentDescription="Logo de la calculatrice" />
 
         <!-- Texte centré -->
         <TextView
@@ -36,12 +43,20 @@
             android:textSize="25sp"
             android:textColor="@color/white" />
 
-        <!-- Bouton menu -->
-        <Button
-            android:id="@+id/buttonMenu"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/menu_img" />
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/ToolbarMenu"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            app:titleTextColor="@color/white"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
     </LinearLayout>
-</LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="321dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>
