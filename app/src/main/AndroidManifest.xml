@@ -12,18 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculator"
         tools:targetApi="31">
-
-        <!-- MainActivity : Activité principale lancée par défaut -->
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" /> <!-- MainActivity : Activité principale lancée par défaut -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Calculator_Contents : Activité supplémentaire -->
+        </activity> <!-- Calculator_Contents : Activité supplémentaire -->
         <activity
             android:name=".Calculator_Contents"
             android:exported="false" />
