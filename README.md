@@ -15,11 +15,12 @@
 3. **Calculator Page**  
    - Basic calculations (addition, subtraction, multiplication, division):  
    ![Calculator Page](https://github.com/user-attachments/assets/121a643b-8968-4837-a98d-24dc2e7a2f67)  
-   - Built-in menu with two main options:  
+   - Built-in menu with two main options:
+   - ![Menu](https://github.com/user-attachments/assets/ecc2cf85-5698-4414-b4cc-27554039706b)
      1. Displaying user account details:  
         ![Profile Page](https://github.com/user-attachments/assets/b159f5b9-e528-416e-a506-93032d492552)  
      2. Consultation of the history of calculations carried out:  
-        ![Menu](https://github.com/user-attachments/assets/ecc2cf85-5698-4414-b4cc-27554039706b)
+        
 
 ## 🛠️ Technologies Used
 
