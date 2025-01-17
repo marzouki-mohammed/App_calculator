@@ -23,6 +23,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button btncreateAccount= findViewById(R.id.SignUpbutton);
+        btncreateAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, signUp.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

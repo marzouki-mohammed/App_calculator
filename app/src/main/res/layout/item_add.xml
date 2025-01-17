@@ -39,28 +39,8 @@
 
 
             </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:padding="1dp"
-                android:gravity="center"
-                android:layout_alignParentEnd="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:padding="5dp"
-                    android:src="@drawable/ic_plus"
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"/>
-                <TextView
-                    android:text="Add Information"
-                    android:textSize="16sp"
-                    android:layout_margin="5dp"
-                    android:textStyle="bold|normal"
-                    android:textColor="#286DC2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
-            </LinearLayout>
+
 
 
         </RelativeLayout>
