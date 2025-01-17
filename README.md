@@ -1,31 +1,36 @@
 # App_calculator
 App_Calculator is a multifunctional mobile application that integrates a user authentication system and a powerful calculator. Built with Firebase and Java, it offers smooth interaction with the database to manage user accounts while providing an intuitive and efficient calculation experience.
 
-## 📋 Fonctionnalités principales
-- Page de connexion : Authentification via Google (Firebase Authentication).
-- Page de création de compte : Inscription d'un nouvel utilisateur avec Firebase.
-- Page de calculatrice :
-Calculs basiques (addition, soustraction, multiplication, division).
-Menu intégré avec deux options principales :
-Affichage des détails du compte utilisateur.
-Consultation de l'historique des calculs effectués.
-
-## 🛠️ Technologies utilisées
-- Langage principal : Java
-- Base de données : Firebase Firestore
-- Authentification : Firebase Authentication
-- IDE recommandé : Android Studio
+## 📋 Main features
+- Login page: Authentication via Google (Firebase Authentication).
+  ![loginpage](https://github.com/user-attachments/assets/f1645b3d-4289-4b76-9ed9-16e354d8e849)
   
-## 🔧 Installation et configuration
-- Cloner le projet :
-git clone https://github.com/votre-utilisateur/App_Calculator.git
-Configurer Firebase :
+- Account creation page: Registering a new user with Firebase.
+  ![signUP](https://github.com/user-attachments/assets/16e068b9-da4e-4774-a75c-cf2cf9a392eb)
+  
+- Calculator page:
+Basic calculations (addition, subtraction, multiplication, division).
+![calculatorepage](https://github.com/user-attachments/assets/121a643b-8968-4837-a98d-24dc2e7a2f67)
 
-- Créez un projet sur Firebase Console.
-Ajoutez une application Android et téléchargez le fichier google-services.json.
-Placez le fichier google-services.json dans le répertoire app/ de votre projet.
+Built-in menu with two main options:
+![menu](https://github.com/user-attachments/assets/ecc2cf85-5698-4414-b4cc-27554039706b)
 
-📧 Contact
-Si vous avez des questions ou des suggestions, contactez-moi à :
-Email : votre-email@example.com
-GitHub : votre-utilisateur
+Displaying user account details.
+![profiel](https://github.com/user-attachments/assets/b159f5b9-e528-416e-a506-93032d492552)
+
+Consultation of the history of calculations carried out.
+
+## 🛠️ Technologies used
+- Main language: Java
+- Database: Firebase Firestore
+- Authentication: Firebase Authentication
+- Recommended IDE: Android Studio
+  
+## 🔧 Installation and configuration
+- Clone the project:
+git clone https://github.com/marzouki-mohammed/elearning_application_web.git
+- Configure Firebase:
+Create a project on Firebase Console.
+Add an Android app and upload the google-services.json file.
+Place the google-services.json file in the app/ directory of your project.
+
