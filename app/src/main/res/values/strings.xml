@@ -10,6 +10,8 @@
     <string name="nameApp">My Calculator</string>
     <string name="OpenNav"> Open Navigation drawer</string>
     <string name="CloseNav">Close Navigation drawer</string>
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+
 
 
 </resources>
